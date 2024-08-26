@@ -1,0 +1,8 @@
+name: 'Hello Action'
+description: 'A custom action that echoes a hello message'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Hello from custom github action"
+      shell: bash
+      

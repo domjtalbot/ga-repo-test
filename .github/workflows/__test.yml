@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Hello
         run: echo "Hello from the ga-repo-test reusable workflow"
+
+      - name: Use Custom Action
+        uses: ./.github/actions/hello-action
