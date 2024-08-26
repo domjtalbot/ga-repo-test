@@ -1,0 +1,11 @@
+name: Hello World Workflow
+
+on:
+    workflow_call:
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo "Hello from the ga-repo-test reusable workflow"
